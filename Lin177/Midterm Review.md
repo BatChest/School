@@ -47,12 +47,20 @@ Every state has at most one exiting transition arrow for each letter in the alph
 
 Every step of the calculation is unique(for recognition)
 ```
-![Pasted image 20240213203936](https://github.com/BatChest/Winter2024/assets/90287766/d9cac134-d249-40d0-98f2-4111b9a37188)
 - Non-deterministic FSA
 
+![Pasted image 20240213203936](https://github.com/BatChest/Winter2024/assets/90287766/d9cac134-d249-40d0-98f2-4111b9a37188)
+
+![image](https://github.com/BatChest/Winter2024/assets/90287766/35c2ea2a-a34a-4063-9471-c87edd240dfc)
+
+
+- Deterministic FSA
 
 ![Pasted image 20240213204923](https://github.com/BatChest/Winter2024/assets/90287766/fc9f20e6-547f-4119-9024-d3af2b0cf75d)
-- Deterministic FSA
+
+![image](https://github.com/BatChest/Winter2024/assets/90287766/9912c405-cfa1-479e-9771-fd5868907662)
+
+
 
 7) Define formal language using regular expressions
 	1) e.g. given a description of a language, write a regular expression to generate it
