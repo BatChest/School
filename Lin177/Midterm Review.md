@@ -17,7 +17,7 @@ A formal language can either be finite or infinite:
 Finite Formal langauge: is one where there is a finite number of valid strings or sentences
 
 Infinite Formal Language: one where there is an infinite number of valid strings or sentences.
-Need to look at the rules of the langauge=
+Usually have the Kleene Star operator
 ```
 
 4) Define formal languages using Finite State Automata
