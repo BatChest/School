@@ -39,6 +39,8 @@ Not every step of the calculation is unique
 
 Deterministic:
 
+Every state has one exiting transition arrow for each letter in the alphabet
+
 Doesn't allow epsilon transitions
 
 Every state has at most one exiting transition arrow for each letter in the alphabet 
