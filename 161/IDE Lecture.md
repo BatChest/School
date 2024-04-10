@@ -34,4 +34,4 @@
 
 # Language Server Protocol
 Developers of each language create a language server Below is a rough visualization:
-![[Pasted image 20240404125216.png]]
+![Pasted image 20240404125216](https://github.com/BatChest/School/assets/90287766/66cc4b72-4c71-4078-b596-4a4ffa965605)
