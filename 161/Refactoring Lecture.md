@@ -24,7 +24,10 @@
 # Technical Debt
 - When working on projects you might implement something in not the absolute best way
 - It can sustainable but as the number of externalities grow and grow and points in your code is implemented poorly, those increase
-- It comes to the point where it chokes you out from being able to do any development 
+- It comes to the point where it chokes you out from being able to do any development
+- Using old solutions become sub-optimal over time and as you keep moving forward with this solution it becomes harder to implement changes later 
+- With ongoing development on the project the old solution or method in the code starts to become less optima and now there is a better method as time moves on
+- It isn't a bad thing as technical debt does occur but being able to reduce the amount of debt is necessary in order to move development forward
 
 # Refactoring Example
 - A method or function in one of your class that might be used by more features of another class than the class that its defined in
