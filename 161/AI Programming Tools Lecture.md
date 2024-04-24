@@ -36,7 +36,7 @@
 	- Each word could be presented as $W_i$
 	- The probability for all: $P(w_{1},...,w_{5})$
 
-![[Pasted image 20240423161903.png]]
+![Pasted image 20240423161903](https://github.com/BatChest/School/assets/90287766/6ac982e8-3cbc-48ea-884a-1aea9e109225)
 - Putting in some information into your network 
 - You get a kind of hidden representation of H
 - Meaning a vector of values that represent what's going on in this sentence, network gives you a plausible continuation based on that hidden state  
@@ -62,7 +62,7 @@
 		- And put it is in our input to our neural network 
 		- Then try to get it to predict our next word 
 		- It'll produce a probability distribution from the vocabulary and we want to look at the probability for the next word 
-		- ![[Pasted image 20240423162958.png]]
+		- ![Pasted image 20240423162958](https://github.com/BatChest/School/assets/90287766/7697cc54-b409-46a8-bbfe-6ef59ba41cfa)
 		- You can model that's good at this text completion task 
 		- Writing in a couple of sentences and then it writes some plausible continuations for the sentences 
 
@@ -80,7 +80,7 @@
 - It's a compromise from an exhaustive global search and a greedy search  
 
 ## ChatGPT
-![[Pasted image 20240423164240.png]]
+![Pasted image 20240423164240](https://github.com/BatChest/School/assets/90287766/1143a275-dfb2-4b8e-ba39-a634d57abc35)
 - Rough rough drawing of how ChatGPT is set up or chatbots in general
 ### Limitations 
 - When asking AI to help write code for you there are limitations?
