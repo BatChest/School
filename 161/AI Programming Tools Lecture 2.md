@@ -33,7 +33,8 @@
 - Unpredictability
 - Potential for subtle bugs 
 
-![[Pasted image 20240423171436.png]]
+![Pasted image 20240423171436](https://github.com/BatChest/School/assets/90287766/270f0403-83fc-4d34-94c0-475ee181b3b6)
+
 
 - Since the LM is just a conditional probability distribution, the input "context" makes all the difference 
 
@@ -47,7 +48,8 @@
 	- What the code is doing currently 
 	- Specifications of inputs and output types 
 
-![[Pasted image 20240423172007.png]]
+![Pasted image 20240423172007](https://github.com/BatChest/School/assets/90287766/7c228931-4568-49f8-bbd0-4bd0b4aa25f4)
+
 - What's important about this figure?
 - It shows the current machine learning landscape 
 - The idea is that we have these large models that we pre train on basically a big chunk of the Internet 
@@ -86,7 +88,7 @@ The main difference between the two is the **Autonomy**
 - In terms of chatbots you are the driver/editor and have to babysit the chatbot to check whether the output is correct 
 - AI agents take the LLM that can generate some nice completions and turn it into a system that sort of autonomously work on tasks by itself  
 - Below is schematic how this sort of AI agent system would work
-![[Pasted image 20240423173421.png]]
+![Pasted image 20240423173421](https://github.com/BatChest/School/assets/90287766/29effd56-c2e1-40e6-aab7-27943128db55)
 - You have a high level assignment like adding a sign up button to a home page
 - You'll get some task list like needing to define the CSS style for the sign up button and define the react component and writing unit tests for the button 
 	- These are specific things that need to be done for the general task to be completed 
@@ -96,13 +98,13 @@ The main difference between the two is the **Autonomy**
 	- When it solves the subtask it can report to the main system that this item number on the task list has been completed 
 - This is just a sample architect of AI agents 
 
-![[Pasted image 20240423174824.png]]
+![Pasted image 20240423174824](https://github.com/BatChest/School/assets/90287766/67f3f8c7-2ee8-431d-94ce-279d446c27d0)
 - How the internet is being affect by AI chatbots
 
 
 # Benchmarks
 - there is some evaluations protocol that is standardized and tells you how well your system is performing 
-![[Pasted image 20240423175135.png]]
+![Pasted image 20240423175135](https://github.com/BatChest/School/assets/90287766/087008f4-f6d2-4152-ae77-d28c72b93fc0)
 
 - Economics and working conditions of AI training 
 - Copyright, intellectual property
