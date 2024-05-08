@@ -93,7 +93,7 @@ In a **distributed VCS**:
 8. **Rebasing:** Rebasing is another way to integrate changes from one branch into another. It’s a bit more complex than merging, but it can make your commit history cleaner. You can start a rebase with the `git rebase` command. For example, `git rebase master` will rebase your current branch onto master.
 
 ## Example Workflow
-![[Pasted image 20240507162152.png]]
+![Pasted image 20240507162152](https://github.com/BatChest/School/assets/90287766/928336e6-f773-41f5-a0f8-18bce410917d)
 
 ## Merge conflict
 A **merge conflict** occurs when Git is unable to automatically resolve differences in code between two commits. When all the changes in the code occur on different lines or in different files, Git will successfully merge commits without your help. But if there are conflicting changes on the same line or in the same file, Git will need your help to decide which changes to incorporate.
@@ -140,7 +140,7 @@ After you’ve resolved all conflicts, you can run `git add` to stage the reso
 - **Hotfix:** A quick fix or patch to address a critical bug or issue in a released software product
 	- "prod" uction: released software
 - **Pull request:** A request to merge changes from one branch to another in a version control system
-![[Pasted image 20240505161150.png|600]]
+![Pasted image 20240505161150](https://github.com/BatChest/School/assets/90287766/ff7fdd2e-9ace-4c86-b3ab-18f5ef3b2416)
 
 # Software development models
 - **Waterfall**
@@ -195,9 +195,9 @@ After you’ve resolved all conflicts, you can run `git add` to stage the reso
 9. **git rebase:** This command is used to move or combine a sequence of commits to a new base commit. It’s an alternative to `git merge`.
 
 Gitflow
-![[Pasted image 20240505162323.png|700]]
+![Pasted image 20240505162323](https://github.com/BatChest/School/assets/90287766/c34aaf8d-3a34-4646-91b7-9cd317f8995b)
 
-![[Pasted image 20240505162416.png]]
+![Pasted image 20240505162416](https://github.com/BatChest/School/assets/90287766/fd8b7786-11a2-4dec-b0f3-35da81913217)
 - **Integration:** We need to get each commit to play nice together before we release the software to users
 
 - **Origin:** the name of remote usually points to GitHub
@@ -209,8 +209,8 @@ Gitflow
 - Continuous integration ensures the trunk is always in a releasable state
 - Release branches may be used for preparing releases 
 - Promotes collaboration, reduces merge conflicts, and enables continuous delivery 
-![[Pasted image 20240505163201.png]]
+![Pasted image 20240505163201](https://github.com/BatChest/School/assets/90287766/7d985c98-685e-4767-aaa8-1210f051d1eb)
+
 
 # Comparison
-![[Pasted image 20240505163236.png]]
-
+![Pasted image 20240505163236](https://github.com/BatChest/School/assets/90287766/15d609fa-3041-4884-b472-a6d5445dc998)
