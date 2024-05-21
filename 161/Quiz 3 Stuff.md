@@ -124,16 +124,21 @@
 - Integration with other tools (e.g. IDE's, CI/CD pipelines)
 
 # Know the key inputs to a build system
-![[Pasted image 20240514160237.png]]
+![Pasted image 20240514160237](https://github.com/BatChest/School/assets/90287766/9aeb272f-cd0d-43b7-8782-a46b63e1c858)
+
 
 # Understand how a build system uses a Directed Acyclic Graph (DAG) to model dependencies between source files and build targets
-![[Pasted image 20240514173229.png]]
+![Pasted image 20240514173229](https://github.com/BatChest/School/assets/90287766/efb5a9e0-d8ee-4ebd-8e6f-998ccb498c65)
+
 
 The core of a build system is a **Directed Acyclic Graph (DAG)** that represents the dependencies between the source files and build targets 
 - With a DAG we have different vertices like a graph
-![[Pasted image 20240514163459.png]]
+
+![Pasted image 20240514163459](https://github.com/BatChest/School/assets/90287766/9c302c17-e46e-434a-9e61-986e8a69efae)
+
 - Each vertices represent a dependency 
-![[Pasted image 20240514163610.png]]
+![Pasted image 20240514163610](https://github.com/BatChest/School/assets/90287766/5650d897-279e-4fe5-8a9f-23c886aa3e60)
+
 - Imagine we're building a GPS app and we have the intermediate library as one vertex
 - Then we have the UI on the other vertex 
 - The Intermediate GEO library might depend on some math calculation library that's an external dependency 
@@ -180,7 +185,8 @@ The core of a build system is a **Directed Acyclic Graph (DAG)** that represents
 - Document build processes and provide clear instructions 
 
 # Name and describe types of builds and their use cases
-![[Pasted image 20240514173147.png]]
+![Pasted image 20240514173147](https://github.com/BatChest/School/assets/90287766/5a643d29-8265-4d08-a0e7-e1f9da25a4eb)
+
 
 # Know the stages of a typical build lifecycle
 1. **Pre-Build**: This is the initial stage where the environment setup takes place. It includes setting up the necessary tools and dependencies required for the build process.
@@ -218,7 +224,8 @@ The core of a build system is a **Directed Acyclic Graph (DAG)** that represents
 	- Use file modification times to detect changes
 	- Execute tasks in topological order
 - Example of Topological Sort
-![[Pasted image 20240515111244.png|500]]
+![Pasted image 20240515111244](https://github.com/BatChest/School/assets/90287766/ae7e1b24-ea58-4a45-a186-2e5d6eecd3fa)
+
 
 - **Restarting (Excel)**
 	- Arrange tasks in a linear sequence
