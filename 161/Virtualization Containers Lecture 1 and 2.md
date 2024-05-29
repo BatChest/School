@@ -2,7 +2,7 @@
 - Business model: rent time on each machine
 	- Problems?
 	- Wasteful
-![[Pasted image 20240525144928.png]]
+![Pasted image 20240525144928](https://github.com/BatChest/School/assets/90287766/49fbf919-706a-4a4f-bc1f-963bac1a1715)
 
 # Example
 - Developers have different compute needs 
@@ -59,9 +59,9 @@ Virtualization of the hardware and operating system
 
 # Containers
 - Shared OS kernel, separate user space and virtualized filesystem 
-![[Pasted image 20240527142332.png]]
+![Pasted image 20240527142332](https://github.com/BatChest/School/assets/90287766/156070ca-9dea-4f9a-a50c-5ae9af015c61)
 
-![[Pasted image 20240527142623.png]]
+![Pasted image 20240527142623](https://github.com/BatChest/School/assets/90287766/b1f193b8-9cc5-48a2-96b7-75d2c9edf599)
 
 # Benefits of Containers
 - Lightweight
@@ -75,7 +75,7 @@ Virtualization of the hardware and operating system
 - Microservices
 - Serverless
 
-![[Pasted image 20240527143541.png]]
+![Pasted image 20240527143541](https://github.com/BatChest/School/assets/90287766/07fa7e54-9d65-4e9a-bea8-678f38ab82d0)
 
 
 # Software Architecture
@@ -87,7 +87,9 @@ Virtualization of the hardware and operating system
 
 ## Service-Oriented Architecture
 - Pencil making analogy
-![[Pasted image 20240527161203.png]]
+![Pasted image 20240527161203](https://github.com/BatChest/School/assets/90287766/26c2e0c3-71eb-4f03-b3ac-d7e430123437)
+
+
 - We split each of these tasks into separate groups 
 - One groups just makes the pencil cases while another just makes the lead 
 - They need to communicate with each other with interfaces
@@ -122,7 +124,7 @@ Virtualization of the hardware and operating system
 - Cost
 
 - Sphere analogy
-![[Pasted image 20240527162723.png]]
+![Pasted image 20240527162723](https://github.com/BatChest/School/assets/90287766/f489b93e-e6fa-47dc-9614-34cee2ae59f1)
 
 
 # Microservices
@@ -135,7 +137,7 @@ Monolith to Containerized Service-Oriented
 - Step 2: Containerize each component 
 - Step 3: ??
 - Step 4: Profit 
-![[Pasted image 20240527163048.png]]
+![Pasted image 20240527163048](https://github.com/BatChest/School/assets/90287766/75410fa8-6cf9-4cd6-b65c-ff85adf67220)
 
 # Container Orchestration
 Container Orchestration software manages:
