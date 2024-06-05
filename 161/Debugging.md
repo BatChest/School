@@ -101,3 +101,6 @@ The process of delta debugging goes as the following:
 	- Environments without robust debugging tools or where such tools are hard to use can hinder the debugging process.
 - **Poor Documentation**: 
 	- Inadequate documentation makes it challenging to understand the intended behavior of the code, complicating the debugging process.
+- Failure is non-deterministic, difficult to reproduce
+- Can’t print or use debugger
+- Can’t change timing of program (or defect/failure depends on timing)
