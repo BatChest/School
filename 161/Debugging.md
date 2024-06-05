@@ -8,7 +8,8 @@
 # Defense in Depth
 Swiss cheese model is where there are holes in one layer and then the next layer covers the holes. It might still have holes so the last layer covers the holes preventing anything to get through
 
-![[Pasted image 20240604141832.png]]
+![Pasted image 20240604141832](https://github.com/BatChest/School/assets/90287766/93fe7a7a-e32b-4c48-a90a-9d6d4033b77b)
+
 
 ## Levels of defense
 1) Make errors impossible 
@@ -38,7 +39,8 @@ Swiss cheese model is where there are holes in one layer and then the next layer
 
 The Loop of debugging:
 
-![[Pasted image 20240604143613.png]]
+![Pasted image 20240604143613](https://github.com/BatChest/School/assets/90287766/29007792-36ec-4057-b5cc-1660d2802544)
+
 
 - Debugging should be systematic
 	- Carefully decide what to do
@@ -73,8 +75,10 @@ The process of delta debugging goes as the following:
 - **minimality** refers to the smallest set of changes or inputs that still produce a failure
 - The global minimum is the smallest input to the program that will make the program fail 
 - Finding the global minimum might require to perform an exponential number of tests 
-- $C_F$ = Set of all failing inputs 
-![[Pasted image 20240604145429.png]]
+- $C_F$ = Set of all failing inputs
+
+![Pasted image 20240604145429](https://github.com/BatChest/School/assets/90287766/4964549b-ab71-49d9-97c0-637dcbbe61ff)
+
 
 # Monotonicity 
 - Monotonicity in delta debugging refers to the assumption that adding more changes to a set that already causes a failure will not eliminate the failure
