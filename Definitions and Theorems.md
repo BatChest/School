@@ -3,7 +3,7 @@
 	- $n \in S$ "n is an element of the set S"
 - A subset of S is a sub collection of elements in S
 	- $A \subseteq S$
- 	- Total amount of subsets of a set is 2^{n} wheren n is the total number of elements of the set  
+ 	- Total amount of subsets of a set is $2^{n}$ wheren n is the total number of elements of the set  
 - The size of S is the number of elements in S
 	- |S| = # S
 - Integers are referred as $\mathbb{Z}$  
