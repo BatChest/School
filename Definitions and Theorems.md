@@ -18,7 +18,7 @@
 - If $S_{1} \text{ and } S_{2}= \emptyset$ they are disjoint
 
 # Addition Principle
-- Suppose $S_{1}, S_{2}, \dots , S_{m}$ is a partition of S. Then $|S| = |S_{1|}+ |S_{2|}+ \dots |S_m|$ 
+- Suppose $S_{1}, S_{2}, \dots , S_{m}$ is a partition of S. Then $|S| = |S_{1}|+ |S_{2}|+ \dots |S_m|$ 
 
 # Multiplication Principle
 Let $S$ be a set of ordered pairs $(a,b)$ of objects, where the first object $a$ comes from a set of size $p$ and for each choice of objects $a$ there are $q$ choices for object $b$. Then $|S| = p \times q$ 
