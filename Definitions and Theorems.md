@@ -2,7 +2,8 @@
 - A set is a collection of distinct objects called elements 
 	- $n \in S$ "n is an element of the set S"
 - A subset of S is a sub collection of elements in S
-	- $A \subseteq S$ 
+	- $A \subseteq S$
+ 	- Total amount of subsets of a set is 2^{n} wheren n is the total number of elements of the set  
 - The size of S is the number of elements in S
 	- |S| = # S
 - Integers are referred as $\mathbb{Z}$  
@@ -18,7 +19,8 @@
 - If $S_{1} \text{ and } S_{2}= \emptyset$ they are disjoint
 
 # Addition Principle
-- Suppose $S_{1}, S_{2}, \dots , S_{m}$ is a partition of S. Then $|S| = |S_{1}|+ |S_{2}|+ \dots |S_m|$ 
+- Suppose $S_{1}, S_{2}, \dots , S_{m}$ is a partition of S. Then $|S| = |S_{1}|+ |S_{2}|+ \dots |S_m|$
+- Addition Principle would be use to break a counting problem into disjoint cases that exhaust all possibilities.
 
 # Multiplication Principle
 Let $S$ be a set of ordered pairs $(a,b)$ of objects, where the first object $a$ comes from a set of size $p$ and for each choice of objects $a$ there are $q$ choices for object $b$. Then $|S| = p \times q$ 
