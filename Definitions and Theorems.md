@@ -28,7 +28,8 @@ Let $S$ be a set of ordered pairs $(a,b)$ of objects, where the first object $a$
 We can extend the multiplication principle to $n$ tasks 
 
 # Subtraction Principle
-Let $B \subseteq U$ and let $U$ \ $B$ be the set of all elements in $U$ that are not in $B$. Then |$U$ \ $B$|  = |$U$| - |$B$| 
+Let $B \subseteq U$ and let $U$ \ $B$ be the set of all elements in $U$ that are not in B. Then $|U \ B|  = |U| - |B|$ 
+Splitting the problem into disjoint cases would make a lot of cases to handle
 
 # Division Principle
 Let S be a finite set that is partitioned into $k$ parts so that each part contains $m$ objects. Then $k = \frac{|S|}{m}$
