@@ -52,7 +52,9 @@ $\binom{n}{k}$ = $\binom{n-1}{k} + \binom{n-1}{k-1}$
 
 # Functions and Bijections
 Let A and B be sets. A function from A to B is a rule that maps each element in A to exactly one element in B. Write $f: A \rightarrow B$ 
-![[Pasted image 20240821202442.png]]
+
+![Pasted image 20240821202442](https://github.com/user-attachments/assets/5ffa4897-4e6a-4bea-8345-9e5d1227c19a)
+
 
 ## Injective
 A function is injective if for all x,y $\in$ A with x $\neq$ y, x and y map to different elements in B.
@@ -62,7 +64,9 @@ A function is surjective if every b $\in$ B is mapped to by some a $\in$ A
 
 ## Bijective 
 A function is bijective if it is injective and surjective (one-to-one)
-![[Pasted image 20240821202703.png]]
+
+![Pasted image 20240821202703](https://github.com/user-attachments/assets/b8b190b5-3a69-408d-8adc-865aa01d7599)
+
 
 # Bijective Principle
 Let A,B be sets |A| = |B| if and only if there is a bijection between them
@@ -70,7 +74,9 @@ Let A,B be sets |A| = |B| if and only if there is a bijection between them
 
 # Foundations of Counting
 If we are distributing $n$ objects into k positions
-![[Pasted image 20240821203035.png]]
+
+![Pasted image 20240821203035](https://github.com/user-attachments/assets/1f6f0a0f-e3e0-4f1e-badc-4c701aaa11f9)
+
 
 
 # Multiset
