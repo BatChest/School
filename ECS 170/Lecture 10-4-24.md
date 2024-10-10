@@ -5,14 +5,18 @@
 - Due to exponential growth of moves required, even at a rate of one disk per second, the task would take over 500 billion years to complete
 
 ## State Graph
-![[Pasted image 20241008151445.png]]
+![Pasted image 20241008151445](https://github.com/user-attachments/assets/d7161262-3251-4342-8b38-d718083ccd26)
+
 - State graph for all the possible connection to get the one ring to peg C
 
-![[Pasted image 20241008151531.png]]
+![Pasted image 20241008151531](https://github.com/user-attachments/assets/4d65518a-b12d-470b-95f3-534c9637e832)
+
 - Here are the legal rules for moving the rings from on peg to another
 - The yellow highlighted states show the 2 rings stacked up on a single peg
 
-![[Pasted image 20241008151807.png]]
+
+![Pasted image 20241008151807](https://github.com/user-attachments/assets/0b70013f-e830-4032-a46a-556e762d97fe)
+
 - The solution to the problem is a path in the graph
 - We need to find a sequence of moves to get from the start state to the end state 
 - The sequence of moves is the subset of the edges in the graph
@@ -25,7 +29,9 @@
 - We can write it in plain English, draw out a diagram, or data structure
 
 ENGLISH: "Ring 2 is on pole a, Ring 1 is on pole b. No rings on pole c"
-![[Pasted image 20241008152453.png]]
+
+![Pasted image 20241008152453](https://github.com/user-attachments/assets/e4e72dc1-748d-454d-bd9f-a44f5586ced8)
+
 
 Data structure
 ```python
@@ -34,7 +40,9 @@ Data structure
 
 ## State Space
 - Set of all possible states
-![[Pasted image 20241008151807.png]]
+
+![Pasted image 20241008151807](https://github.com/user-attachments/assets/0bea0bc0-0cbe-4aeb-aadd-e07854bd0c4b)
+
 - All the nodes in this diagram is the state space 
 
 
@@ -56,7 +64,9 @@ Data structure
 - Avoid the messy details, focus on what matters
 
 ## Tile Puzzle
-![[Pasted image 20241008154140.png]]
+
+![Pasted image 20241008154140](https://github.com/user-attachments/assets/ba443724-af25-4261-9f44-67868b2ed5b4)
+
 - **State Representation**: 3D array or one dimensional list
 - **State Space:** The 8 spaces in the array
 - **Actions**: Moving up, down, left and right if there is an empty space to move to
