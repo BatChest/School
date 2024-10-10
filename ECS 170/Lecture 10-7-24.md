@@ -103,7 +103,9 @@ Thing about a detailed-oriented friend who won't make a decision until they know
 		- Typical number of moves between the initial state and goal state 
 		- Moves between the initial state and goal state 
 	- **Branching Factor: Example**
-![[Pasted image 20241009204430.png]]
+
+![Pasted image 20241009204430](https://github.com/user-attachments/assets/68db61f5-3097-4105-b1b2-466f4979dd56)
+
 
 
 # What is the Naïve Solution
@@ -121,7 +123,9 @@ Thing about a detailed-oriented friend who won't make a decision until they know
 # Breadth-first Search
 - **Algorithm Behavior** 
 	- Expand the shallowest node first
-![[Pasted image 20241009205417.png]]
+
+![Pasted image 20241009205417](https://github.com/user-attachments/assets/9b6edca7-41ef-46b6-8fe2-7471fcb5b975)
+
 
 - **Complexity**
 	- **Time Complexity**: $O(b^d)$ where $b$ is the branching factor and $d$ is the depth of the shallowest goal node
