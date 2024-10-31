@@ -15,7 +15,10 @@
 - Makes the overall prediction more robust and reliable
 
 **Process Flow (as shown in image)**
-![[Pasted image 20241030210536.png]]
+
+![Pasted image 20241030210536](https://github.com/user-attachments/assets/8ad70c4d-5e64-4bdc-b50a-f38cc14bb005)
+
+
 1) Start with training data
 2) Create multiple bootstrap samples
 3) Train separate models on each sample
@@ -23,7 +26,10 @@
 5) Generate final outcome
 - illustrates how bagging takes one dataset and creates multiple trained models that work together to make a final prediction on test data.
 
-![[Pasted image 20241030210752.png]]
+
+![Pasted image 20241030210752](https://github.com/user-attachments/assets/bfd6c4d5-99c0-417e-9c94-4a01759f93c5)
+
+
 - **Process Overview**
 	- Starts with a population (shown as blue dots)
 	- Takes a random sample from population
@@ -51,7 +57,9 @@
 	- Creates variation in resamples while maintaining sample size
 
 
-![[Pasted image 20241030211324.png]]
+
+![Pasted image 20241030211324](https://github.com/user-attachments/assets/60b0bc9a-762d-449b-9ef5-278d1f8e3959)
+
 
 **Ensemble**
 - Combining predictions from multiple learners is a recurring theme in machine learning
@@ -81,7 +89,10 @@
   - Requires more computational resources
   - Need to balance adaptation speed with stability
 
-![[Pasted image 20241030211719.png]]
+
+![Pasted image 20241030211719](https://github.com/user-attachments/assets/33970380-e40a-4ec5-8b94-0410de3c064b)
+
+
 - **Similarity to Bagging**
     - Uses multiple models (pool of models)
     - Takes training data and creates multiple samples
