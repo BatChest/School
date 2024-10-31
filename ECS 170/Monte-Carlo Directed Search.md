@@ -3,7 +3,9 @@ This algorithm can be understood in 4 steps:
 - Expansion
 - Simulation
 - Backpropagation 
-![[Pasted image 20241019125704.png]]
+
+![Pasted image 20241019125704](https://github.com/user-attachments/assets/e807bdd7-5167-4109-95d7-687eac75fe12)
+
 ## Selection
 - Start at the root of the game and tree and get to a particular depth
 - Depth is set by getting to a point where we haven't expanded any of the successors for this node 
@@ -50,10 +52,15 @@ This algorithm can be understood in 4 steps:
 	- c - balance term
 	- $s_p$ : number of times parent visited 
 	- can also include an evaluation function
-![[Pasted image 20241019131427.png]]
+
+![Pasted image 20241019131427](https://github.com/user-attachments/assets/41d5e527-6dfd-46d5-a3dd-0179d6763648)
+
+
 - Use the above as a score to determine which node to select 
 
-![[Pasted image 20241019131609.png]]
+
+![Pasted image 20241019131609](https://github.com/user-attachments/assets/89b7df9a-3bb7-4653-bf2f-48c09ed9c877)
+
 
 ## Simulation
 - From this play of the game two simulated opponents and see who wins
@@ -78,7 +85,9 @@ This algorithm can be understood in 4 steps:
 - Want to converge to optimal play as $N$ increases
 
 
-![[Pasted image 20241019133137.png]]
+
+![Pasted image 20241019133137](https://github.com/user-attachments/assets/bbb9eb98-83e7-45dc-abbd-292cd1f4032a)
+
 
 - Want to converge to optimal play as $N$ increases 
 - This is new! Instead of looking for:
@@ -88,27 +97,47 @@ This algorithm can be understood in 4 steps:
 - We run Monte Carlo to get better estimates
 
 # Example
-![[Pasted image 20241019133621.png]]
+
+![Pasted image 20241019133621](https://github.com/user-attachments/assets/acaf6f22-de21-4a8d-8bc0-e9755fa55c15)
+
+
 - Numerator is the number of games that we've won from this node 
 - Denominator 100 is the number of games where that node was selected 
 
-![[Pasted image 20241019134509.png]]
+
+![Pasted image 20241019134509](https://github.com/user-attachments/assets/b4715c6d-8ca9-4691-841f-ce960291de3a)
+
+
 - we need to update the win ratio from the root node to the Orange win
-![[Pasted image 20241019135333.png]]
+
+![Pasted image 20241019135333](https://github.com/user-attachments/assets/a0b07757-5326-4f87-aa29-8c4ae560a266)
+
+
 - Since the search starts from Purple's perspective 
 - We increment the denominator only 
 - (If purple had won, we would increment the numerator and denominator)
 
-![[Pasted image 20241019135442.png]]
+
+![Pasted image 20241019135442](https://github.com/user-attachments/assets/3e3c3d55-889b-4108-8f67-1b789ac81530)
+
+
 - Remember: SELECT and SIMULATE functions are "swappable"
 
-![[Pasted image 20241019135554.png]]
 
-![[Pasted image 20241019135604.png]]
+![Pasted image 20241019135554](https://github.com/user-attachments/assets/8533ed39-9e31-4701-a8dd-af298d5ed198)
 
-![[Pasted image 20241019135647.png]]
 
-![[Pasted image 20241019135747.png]]
+
+![Pasted image 20241019135604](https://github.com/user-attachments/assets/9c8bb919-ef23-4dbd-975e-0181eae3667c)
+
+
+
+![Pasted image 20241019135647](https://github.com/user-attachments/assets/a0a04ea3-fd2f-4f97-bf6f-546e40e3f8ae)
+
+
+
+![Pasted image 20241019135747](https://github.com/user-attachments/assets/f242269d-c915-40b7-b4a3-ffb6a89759c8)
+
 
 **Informed Search**: How to direct a search path between our current state and the goal when we have full control
 
