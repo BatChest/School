@@ -11,9 +11,14 @@
 	- **Fix**: It doesn't matter how many people are pointing to you but if they are popular themselves 
 
 Let $L_{ij} = 1$ if webpage $j$ links to webpage $i$ (written $j \rightarrow i$) and $L_{ij} = 0$ otherwise 
-![[Pasted image 20241029171016.png]]
 
-![[Pasted image 20241029171139.png]]
+![Pasted image 20241029171016](https://github.com/user-attachments/assets/068b106d-361b-4a1f-968d-603e700fc27f)
+
+
+
+![Pasted image 20241029171139](https://github.com/user-attachments/assets/ca707854-05f8-4a8b-8298-07ef570bc6f9)
+
+
 - Each element in p represent a pagerank score for each website 
 - Eigenvalues: the eigenvectors are vectors where if you multiply by the matrix all it does is scale the vector 
 
@@ -34,7 +39,9 @@ Let $L_{ij} = 1$ if webpage $j$ links to webpage $i$ (written $j \rightarrow i$)
 ## Why BrokenRank is broken
 - If we have a markov chain that's not strongly connected there still might be a stationary distribution, we can still come up with a page rank vector but it's not unique 
 ### Example:
-![[Pasted image 20241029173929.png]]
+
+![Pasted image 20241029173929](https://github.com/user-attachments/assets/ecff880e-2e77-4777-ab88-a1791200123b)
+
 
 ## Modification to BrokenRank
 - We're going to add a small epsilon
@@ -47,14 +54,22 @@ $$\sum\limits_{i=1}^{n}p_{i} = 1$$
 
 - We have effectively turned the graph into one giant component 
 - The paging vector P has become unique 
-![[Pasted image 20241029174553.png]]
+
+![Pasted image 20241029174553](https://github.com/user-attachments/assets/8733c866-8611-46ca-ac23-8d16c2e7c24f)
+
 
 ## Computing PageRank vector
-![[Pasted image 20241029175113.png]]
+
+![Pasted image 20241029175113](https://github.com/user-attachments/assets/261ea6ed-1bad-429e-b963-09fa108428fa)
+
+
 - A in $A_{p}^{(0)}$ is the transition matrix and the vector P that are looking for is the stationary distribution 
 - You can start from anywhere and end up in a stationary distribution just by making transitions over and over again 
 - We'll apply matrix A to any initial distribution and keep going and if our graph is strongly connected then we'll end up in $p^{(t)}$
-![[Pasted image 20241029180327.png]]
+
+![Pasted image 20241029180327](https://github.com/user-attachments/assets/46e9a716-88f8-4754-90e2-8df9792b0928)
+
+
 - Sparsity, a few webpages links to only a few other web pages 
 - There are not many iterations required for this multiplication if A has a large **spectral gap** 
 	- spectral gap, difference between the first and second largest eigen values 
@@ -82,7 +97,9 @@ $$\sum\limits_{i=1}^{n}p_{i} = 1$$
 - Avoid clicking on the spam
 
 
-![[Pasted image 20241029182055.png]]
+
+![Pasted image 20241029182055](https://github.com/user-attachments/assets/bdc630ec-7b72-4836-a853-2951272b2716)
+
 
 **Markov Chain**
 - Matrix representation that captures a process on the graph and by processes, we're moving from one node to another 
